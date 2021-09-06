@@ -125,6 +125,22 @@ bool = isPrimitive( new Object() );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-boxed-primitive`][@stdlib/assert/is-boxed-primitive]: test if a value is a JavaScript boxed primitive.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -179,6 +195,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-primitive/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-boxed-primitive]: https://github.com/stdlib-js/assert-is-boxed-primitive
+
+<!-- </related-links> -->
 
 </section>
 
