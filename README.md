@@ -143,7 +143,7 @@ bool = isPrimitive( new Object() );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/assert/is-boxed-primitive`][@stdlib/assert/is-boxed-primitive]</span><span class="delimiter">: </span><span class="description">test if a value is a JavaScript boxed primitive.</span>
+-   <span class="package-name">[`@stdlib/assert-is-boxed-primitive`][@stdlib/assert/is-boxed-primitive]</span><span class="delimiter">: </span><span class="description">test if a value is a JavaScript boxed primitive.</span>
 
 </section>
 
