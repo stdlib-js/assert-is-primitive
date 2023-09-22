@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isPrimitive from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-primitive@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-primitive/tags). For example,
+
+```javascript
 import isPrimitive from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-primitive@v0.1.0-deno/mod.js';
 ```
 
@@ -87,7 +92,7 @@ var bool = isPrimitive( false );
 ```javascript
 import Boolean from 'https://cdn.jsdelivr.net/gh/stdlib-js/boolean-ctor@deno/mod.js';
 import Object from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-ctor@deno/mod.js';
-import isPrimitive from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-primitive@v0.1.0-deno/mod.js';
+import isPrimitive from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-primitive@deno/mod.js';
 
 var bool = isPrimitive( false );
 // returns true
