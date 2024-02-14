@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isPrimitive from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-primitive@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-primitive/tags). For example,
+
+```javascript
 import isPrimitive from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-primitive@v0.2.0-esm/index.mjs';
 ```
 
@@ -92,7 +97,7 @@ var bool = isPrimitive( false );
 
 import Boolean from 'https://cdn.jsdelivr.net/gh/stdlib-js/boolean-ctor@esm/index.mjs';
 import Object from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-ctor@esm/index.mjs';
-import isPrimitive from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-primitive@v0.2.0-esm/index.mjs';
+import isPrimitive from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-primitive@esm/index.mjs';
 
 var bool = isPrimitive( false );
 // returns true
