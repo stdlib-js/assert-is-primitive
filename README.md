@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isPrimitive from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-primitive@deno/mod.js';
+import isPrimitive from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-primitive@v0.2.0-deno/mod.js';
 ```
 
 #### isPrimitive( value )
@@ -87,7 +87,7 @@ var bool = isPrimitive( false );
 ```javascript
 import Boolean from 'https://cdn.jsdelivr.net/gh/stdlib-js/boolean-ctor@deno/mod.js';
 import Object from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-ctor@deno/mod.js';
-import isPrimitive from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-primitive@deno/mod.js';
+import isPrimitive from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-primitive@v0.2.0-deno/mod.js';
 
 var bool = isPrimitive( false );
 // returns true
