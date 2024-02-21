@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isPrimitive from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-primitive@esm/index.mjs';
+import isPrimitive from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-primitive@v0.2.1-esm/index.mjs';
 ```
 
 #### isPrimitive( value )
@@ -92,7 +92,7 @@ var bool = isPrimitive( false );
 
 import Boolean from 'https://cdn.jsdelivr.net/gh/stdlib-js/boolean-ctor@esm/index.mjs';
 import Object from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-ctor@esm/index.mjs';
-import isPrimitive from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-primitive@esm/index.mjs';
+import isPrimitive from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-primitive@v0.2.1-esm/index.mjs';
 
 var bool = isPrimitive( false );
 // returns true
